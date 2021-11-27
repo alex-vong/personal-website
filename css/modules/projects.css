@@ -1,5 +1,72 @@
 
+/*What's Hot Projects*/
 
+
+.whats-hot .wh-intro{
+margin:  25px 0;
+}
+
+.whats-hot h4.card-heading{
+   margin-bottom: 15px;  
+}
+
+
+projects-grid, project-card {
+   display: flex;
+   flex-direction: column;
+   gap:  80px;
+}
+
+project-card {
+   gap:  10px;
+}
+
+
+project-card .card-links {
+   display: flex;
+   justify-content: space-between;
+   width:  80%;
+
+}
+
+project-card .third-level-heading {
+   font-weight: 500;
+   color:  var(--primary);
+}
+
+
+.animated-line span {
+   display: inline;
+   background-image: linear-gradient( var(--primary), var(--primary) );
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: 0% 2px;
+   transition: .4s;
+}
+
+.animated-line:hover span {
+   background-size: 100% 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Projects and Experiments Page*/
 
 .project-card .link-divider {
    font-weight: 700;
