@@ -3,21 +3,28 @@
 $projects = [
 	[
 		"name" => "30-Day Responsive Layout Challenge",
-		"description" => "Recreated 1 responsive component from a website everyday for a month using HTML, CSS, and PHP ",
+		"description" => "A Collection of 30 Responsive Layout Components found in the Wild",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
 		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
+		"image" => "images/rlc-image.svg",
+		"hot" => true,
 	],
 	[
 		"name" => "PokeDex",
-		"description" => "Created a Pokedex using data from a JSON file to display pokemon on a grid that leads to indicidual detail pages using HTML, CSS, and PHP.",
+		"description" => "A responsive Pokedex created using HTML, CSS, PHP, and PHP Routing.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"image" => "images/pokedex-image.svg",
+
+		"hot" => true,
 	],
 	[
 		"name" => "Student Grade Table",
 		"description" => "Created a CRUD system database where users can create, read, update, and delete student names, classes, and grades in HTML, CSS, PHP, and Javascript.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"image" => "https://peprojects.dev/images/square.jpg",
+		"hot" => false,
 	],
 
 	[
@@ -25,6 +32,8 @@ $projects = [
 		"description" => "Created a movie database using HTML, CSS, PHP, and Word Press.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"image" => "https://peprojects.dev/images/square.jpg",
+		"hot" => false,
 	],
 ];
 
