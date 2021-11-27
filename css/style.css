@@ -1,0 +1,93 @@
+
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+@import 'developer-styles.css'; 
+/* comment this ^ out - when you are ready */
+
+
+/* SETTINGS */
+@import 'settings.css'; /* variables/ etc */
+
+
+/* STRUCTURE */
+@import 'structure.css';
+
+
+/* TYPOGRAPHY */
+@import 'typography.css';
+
+
+/* COMPONENTS */
+@import 'components.css';
+
+
+/* MODULES */
+@import 'modules/masthead.css';
+@import 'modules/about.css';
+@import 'modules/projects.css';
+@import 'modules/experiments.css';
+@import 'modules/writing.css';
+
+
+
+
+
+
+
+html {
+	background-color: var(--white);
+
+
+}
+
+
+
+/* SITE SECTIONS */
+header {
+	position: sticky;
+	top: 0;
+   background-color: var(--white);
+   z-index:  100;
+
+   padding:  10px 0 20px;
+}
+
+
+.contact-me .quiet-voice a {
+   color:  var(--primary);
+   text-decoration: none;
+   font-weight: 500;
+
+}
+
+.home .landing {
+   min-height:  55vh;
+}
+
+
+.container a {
+   display:  inline-block;
+}
+
+.home .container p.body-copy {
+   margin-top:  10px;
+}
+
+
+.home .container p.quiet-voice:nth-of-type(2) {
+   font-weight:  500;
+   font-size:  18px;
+   margin-top: 20px;
+
+}
+
+.home .container {
+   margin-top:  20px;
+}
+
+
+
+
+

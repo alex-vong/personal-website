@@ -1,0 +1,12 @@
+.about .my-story .body-copy {
+   word-spacing: 5px;
+
+}
+
+
+.about a {
+text-decoration: underline;
+align-self: end;
+
+margin-top:  25px;
+}

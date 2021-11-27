@@ -1,0 +1,49 @@
+masthead .desktop {
+   display:  none;
+}
+
+header {
+   margin-top:  5px;
+}
+
+masthead {
+   display:  flex;
+   flex-direction:  row;
+   justify-content: space-between;
+}
+
+masthead .intro-voice {
+   font-weight: 700;
+}
+
+
+
+
+masthead nav {
+   display:  flex;
+   flex-direction: column;
+   gap:  5px;
+
+
+}
+
+
+@media (min-width: 768px) {
+
+   masthead .desktop {
+      display:  block;
+   }
+
+   masthead .mobile {
+      display:  none;
+   }
+   masthead nav {
+      flex-direction: row;
+      gap:  20px;
+
+       
+      align-items: center;
+   }
+}
+
+
