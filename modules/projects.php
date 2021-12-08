@@ -1,29 +1,38 @@
-<section class="projects">
+<section class="container projects">
 	<inner-column>
+		<h3 class="section-heading intro-voice"> Projects</h3>
+		<h2 class="second-level-heading">Some Things I've Built and Worked On</h2>	
 
-	<div class="container projects">
-		<?php if ($page === "home") { ?>
-			<h2 class="section-heading intro-voice">Work</h2>
-		<?php } else { ?>
-			<h2 class="section-heading top-level-heading">Work</h2>
+	<projects-grid>
 
-		<?php } ?>
+		<?php include("projects-data.php") ?>
+		<?php foreach ($projects as $project) {
 
-		 <p class="body-copy intro">Take a look at some of the projects I have worked on</p>
+			if(!$project["demo"]) { 
+			include('project-card.php');
+			}
 
-		 <div class="projects-grid">
-		 	<?php include("projects-data.php") ?>
+		} ?>
+	</projects-grid>
 
-			<?php foreach ($projects as $project) { 
-				include("projects-grid.php");
+	<div class="container bits">
+
+		<h3 class="section-heading intro-voice">Experiments</h3>
+		<h2 class="second-level-heading">Random Snippets of Code and Experimental Bits</h2>	
+
+
+		 <div class="bits-grid">
+		 	<!-- <?php include("projects-data.php") ?> -->
+
+			<?php foreach ($bits as $bit) { 
+				include("experiments-grid.php");
 		 	 } ?>
 		 	
 		 </div>
-		
+
 	</div>
 	
 	 <?php include("contact-me.php") ?> 
-
-</inner-column>
+	</inner-column>
 </section>
 
