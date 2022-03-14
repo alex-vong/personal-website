@@ -22,7 +22,6 @@
 
 <a href="?page=writings" class="animated-line">
 	<p class="fourth-level-heading">
-		<span>View All Blogs</span>
+		<span>View More Blogs</span>
 	</p>
 </a>
-
